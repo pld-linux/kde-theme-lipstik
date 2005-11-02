@@ -19,12 +19,13 @@ BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-%{_name} is a theme based on the plastik style, Lipstik is a purified style with
-many options to tune your desktop look.
+%{_name} is a theme based on the plastik style, Lipstik is a purified
+style with many options to tune your desktop look.
 
 %description -l pl
-%{_name} to motywem oparty na Plastik. Jest jednak oczyszczony, i posiada
-wiele opcji umo¿liwiaj±cych precyzyjne ustawienie wygl±du Twojego pulpitu.
+%{_name} to motyw oparty na Plastiku. Jest jednak oczyszczony i
+posiada wiele opcji umo¿liwiaj±cych precyzyjne ustawienie wygl±du
+pulpitu.
 
 %package -n kde-style-%{_name}
 Summary:	KDE Style - %{_name}
@@ -75,8 +76,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n kde-theme-%{_name}
 %defattr(644,root,root,755)
-%{_libdir}/kde3/kstyle_*.la
 %attr(755,root,root) %{_libdir}/kde3/kstyle_*.so
+%{_libdir}/kde3/kstyle_*.la
 %attr(755,root,root) %{_libdir}/kde3/plugins/styles/*.so
 %{_libdir}/kde3/plugins/styles/*.la
 %{_datadir}/apps/kstyle/themes/*.themerc
