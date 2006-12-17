@@ -4,12 +4,12 @@
 Summary:	KDE theme - %{_name}
 Summary(pl):	Motyw KDE - %{_name}
 Name:		kde-theme-%{_name}
-Version:	2.1
+Version:	2.2
 Release:	1
 License:	GPL
 Group:		Themes
 Source0:	http://www.kde-look.org/content/files/18223-%{_name}-%{version}.tar.bz2
-# Source0-md5:	0f7e576c615511d26209889e92aeb5c8
+# Source0-md5:	a4c8d994ef08f450491e9ee9840f3323
 URL:		http://www.kde-look.org/content/show.php?content=18223
 BuildRequires:	autoconf
 BuildRequires:	unsermake
