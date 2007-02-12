@@ -2,7 +2,7 @@
 %define         _name lipstik
 
 Summary:	KDE theme - %{_name}
-Summary(pl):	Motyw KDE - %{_name}
+Summary(pl.UTF-8):   Motyw KDE - %{_name}
 Name:		kde-theme-%{_name}
 Version:	2.2
 Release:	1
@@ -22,34 +22,34 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %{_name} is a theme based on the plastik style, Lipstik is a purified
 style with many options to tune your desktop look.
 
-%description -l pl
+%description -l pl.UTF-8
 %{_name} to motyw oparty na Plastiku. Jest jednak oczyszczony i
-posiada wiele opcji umo¿liwiaj±cych precyzyjne ustawienie wygl±du
+posiada wiele opcji umoÅ¼liwiajÄ…cych precyzyjne ustawienie wyglÄ…du
 pulpitu.
 
 %package -n kde-style-%{_name}
 Summary:	KDE Style - %{_name}
-Summary(pl):	Styl dla KDE - %{_name}
+Summary(pl.UTF-8):   Styl dla KDE - %{_name}
 Group:		Themes
 Requires:	kdelibs
 
 %description -n kde-style-%{_name}
 KDE style - %{_name}.
 
-%description -n kde-style-%{_name} -l pl
+%description -n kde-style-%{_name} -l pl.UTF-8
 Styl dla KDE - %{_name}
 
 %package -n kde-colorscheme-%{_name}
 Summary:	Color scheme for %{_name} theme
-Summary(pl):	Zestaw kolorów dla stylu %{_name}
+Summary(pl.UTF-8):   Zestaw kolorÃ³w dla stylu %{_name}
 Group:		Themes
 Requires:	kdebase-core
 
 %description -n kde-colorscheme-%{_name}
 A color scheme for %{_name} theme.
 
-%description -n kde-colorscheme-%{_name} -l pl
-Zestaw kolorów dla stylu %{_name}.
+%description -n kde-colorscheme-%{_name} -l pl.UTF-8
+Zestaw kolorÃ³w dla stylu %{_name}.
 
 %prep
 %setup -q -n %{_name}-%{version}
