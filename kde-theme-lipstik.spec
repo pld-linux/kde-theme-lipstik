@@ -2,7 +2,7 @@
 %define         _name lipstik
 
 Summary:	KDE theme - %{_name}
-Summary(pl.UTF-8):   Motyw KDE - %{_name}
+Summary(pl.UTF-8):	Motyw KDE - %{_name}
 Name:		kde-theme-%{_name}
 Version:	2.2
 Release:	1
@@ -29,7 +29,7 @@ pulpitu.
 
 %package -n kde-style-%{_name}
 Summary:	KDE Style - %{_name}
-Summary(pl.UTF-8):   Styl dla KDE - %{_name}
+Summary(pl.UTF-8):	Styl dla KDE - %{_name}
 Group:		Themes
 Requires:	kdelibs
 
@@ -41,7 +41,7 @@ Styl dla KDE - %{_name}
 
 %package -n kde-colorscheme-%{_name}
 Summary:	Color scheme for %{_name} theme
-Summary(pl.UTF-8):   Zestaw kolorów dla stylu %{_name}
+Summary(pl.UTF-8):	Zestaw kolorów dla stylu %{_name}
 Group:		Themes
 Requires:	kdebase-core
 
