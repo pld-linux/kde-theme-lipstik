@@ -74,7 +74,7 @@ rm -rf $RPM_BUILD_ROOT
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files -n kde-theme-%{_name}
+%files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/kde3/kstyle_*.so
 %{_libdir}/kde3/kstyle_*.la
